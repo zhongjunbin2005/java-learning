@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class randomng {
     public static void main(String[] args) {
-        /*Random a= new Random();
+        Random a= new Random();
         int number=a.nextInt(1,101);
         Scanner sr=new Scanner(System.in);
         int num=0;
@@ -20,6 +20,6 @@ public class randomng {
                 System.out.println("恭喜你，猜对了");
                 break;
             }
-        }*/
+        }
     }
 }
