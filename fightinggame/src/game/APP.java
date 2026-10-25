@@ -5,9 +5,7 @@ import game.ui.Login;
 
 public class APP {
     public static void main(String[] args) {
-//        Login l=new Login();
-//        l.start();
-        Fightinggame fg=new Fightinggame();
-        fg.gameStart("zhangsan");
+        Login l=new Login();
+        l.start();
     }
 }
