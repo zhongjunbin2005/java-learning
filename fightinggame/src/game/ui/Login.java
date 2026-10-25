@@ -25,6 +25,7 @@ public class Login {
         }
     }
     }
+//登录操作
 
     public void login(ArrayList<User> list) {
         System.out.println("用户选择了登录操作");
@@ -57,6 +58,8 @@ public class Login {
                 String password=sc.next();
                 if(password.equals(u.getPassword())){
                     System.out.println("登录成功，游戏启动");
+                    Fightinggame fg=new Fightinggame();
+                    fg.gameStart(username);
                     break;
                 } else if (i==2) {
                     u.setState(false);
@@ -66,6 +69,8 @@ public class Login {
                 }
             }
     }
+//注册操作
+
     public void register(ArrayList<User> list) {
         System.out.println("用户选择了注册操作");
         User u = new User();
